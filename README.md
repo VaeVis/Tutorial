@@ -55,3 +55,46 @@ Znaczniki / mnemoniki
 
 Znacznik <em></em>
 Uwypuklenie, podkreślenie
+
+Lista bez kropek
+<ul style="list-style-type: none;">
+
+Stajlisz kolor inline
+    <h1 style="color: orange;"></h1>
+    <p style="color: cyan;"></p>
+
+Stajlisz wbudowany
+<style>
+  h1 {color: tomato;}
+  p {color: oragne;}
+</style>
+
+stajlisz z linku
+(wymaga pliku styles.css w którym wprowadzimy stajlisz wbudowany (bez znacznika style))
+<link rel="stylesheet" href="./css/styles.css" />
+
+Stajlisz dla grup, zamiast id uzyj Class="nazwaklasy"
+.nazwaklasy rgb(0, 0, 0)
+
+Stajlisz dla list
+ul a {color: rgb(13, 13, 17);}
+
+stajlisz dziedziczony
+.klasa > p{}
+
+Style interaktywne
+:focus {} (zmienia kolor wybierając element tabem)
+:hover {}  (zmienia kolor po najechaniu)
+:active {} (zmienia kolor przytrzymując klawisz na elemencie)
+
+Waga selektórów (od najwyższej - decyduje podczas konfliktu, która reguła ma pierwszeństwo)
+  inline
+    id (#)
+      classes, attributes, pseudo-classes (.)
+        elements, pseudo-elements (p{color} ma mniejsza wartość niż np secion > p{color})
+
+--!! jezeli wartość reguł jest taka sama, podczas konfliktu używana jest ostatnia reguła!!--
+            Aby zwiększyć ważność reguły => !important (przykład poniżej)
+                      p {color: orange !important;}
+
+.post-link {color: inherit;} - Wartość inherit informuje przeglądarkę, że element musi dziedziczyć wartość właściwości z elementu nadrzędnego.

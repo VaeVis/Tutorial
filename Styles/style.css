@@ -1,0 +1,30 @@
+
+p{color: white;}
+h1{color: white;}
+h2{color: white;}
+h3{color: white;}
+body {background-color: rgba(0, 0, 0, 0.671);}
+header {background-color: rgba(255, 255, 255, 0.13);}
+nav {background-color: rgba(255, 254, 254, 0.473);}
+.titlelow {font-weight: 500;
+    color: orange;}
+
+.idcheck {font-weight: 500;
+    color: yellow;}
+
+.titleclass{font-weight: 500;
+    color:pink}
+
+ul a {color: rgb(13, 13, 17);}
+
+
+.nawigacja:hover{background-color: rgb(86, 201, 247)}
+.nawigacja:hover{color: white}
+a{color: rgb(48, 126, 216);}
+a:focus{color: blueviolet;}
+button:focus{background-color: orange; color: white;}
+li a:hover {background-color: white; color: black;}
+li a:active {background-color:black; color: darkgray;}
+.articletext > a {color: blueviolet;}
+h1 {font-family: 'Brush Script MT', cursive;}
+body {font-family: 'Garamond', serif}
