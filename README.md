@@ -98,3 +98,52 @@ Waga selektórów (od najwyższej - decyduje podczas konfliktu, która reguła m
                       p {color: orange !important;}
 
 .post-link {color: inherit;} - Wartość inherit informuje przeglądarkę, że element musi dziedziczyć wartość właściwości z elementu nadrzędnego.
+
+>>>>>>Dyretkywa czcionki --> @font-Face
+
+>>Rodzaj czcionki
+font-famili ("", rodzina czcionki w razie nie wyszukania podanych czcionek w "")
+
+>>Grubość czcionki
+font-weight (400-normal, 700bold - zakres 100-900)
+
+>>rozmiar czcionki
+font-size (domyślna wartość 16px)
+
+>>typ obrysu tekstu
+font-style: normal
+italic (kursywa)
+oblique (cienkie litery)
+initial (duza litera na początku)
+inherit
+
+font-display — kontroluje wyświetlanie tekstu po załadowaniu czcionki.
+src — link do pliku czcionki i określenie jej typu, zazwyczaj woff lub woff2
+unicode-range — określa zestaw wymaganych znaków w czcionce z tabeli symboli Unicode.
+
+>>różne efekty dekoracji (podkreślenie, nadkreślenie, przekreślenie)
+text-decoration: none | underline | line-through | overline
+
+>>wielkość liter w tekście
+text-transform: none | uppercase | lowercase | capitalize (1 duża litera)
+
+>>wyrównanie zawartości tekstowej (domyślnie left)
+text-align: left | right | center | justify
+
+>>odstęp między wierszami
+line-height: mnożnik | wartość | procenty | normal | inherit
+(Na przykład, jeśli rozmiar czcionki w layoucie wynosi 16px, а padding 24px, po prostu podziel 24 przez 16 і uzyskasz mnożnik 1.5)
+
+>>odstęp między znakami
+letter-spacing: wartość | normal | inherit
+
+>>wcięcie pierwszego wiersza bloku tekstu
+text-indent: wartość | procenty | inherit
+
+>>cień tekstu
+text-shadow: <x-offset (poziom)>, <y-offset (pion)>, <blur radius (rozmycie)>, <color (color)>
+
+>>Normalizacja stylów dla przeglądarek
+<link rel="stylesheet" href="<https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css>">
+<link rel="stylesheet" href="./css/styles.css" />
+</head>

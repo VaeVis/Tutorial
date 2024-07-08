@@ -1,19 +1,20 @@
 
 p{color: white;}
-h1{color: white;}
-h2{color: white;}
-h3{color: white;}
 body {background-color: rgba(0, 0, 0, 0.671);}
 header {background-color: rgba(255, 255, 255, 0.13);}
 nav {background-color: rgba(255, 254, 254, 0.473);}
 .titlelow {font-weight: 500;
-    color: orange;}
+    color: orange;
+    font-size: 24px;}
 
 .idcheck {font-weight: 500;
     color: yellow;}
 
-.titleclass{font-weight: 500;
-    color:pink}
+.titleclass{font-weight: 900;
+    color:pink;
+    text-shadow: 6px 2px 4px black;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 64px;}}
 
 ul a {color: rgb(13, 13, 17);}
 
@@ -26,5 +27,7 @@ button:focus{background-color: orange; color: white;}
 li a:hover {background-color: white; color: black;}
 li a:active {background-color:black; color: darkgray;}
 .articletext > a {color: blueviolet;}
-h1 {font-family: 'Brush Script MT', cursive;}
-body {font-family: 'Garamond', serif}
+.accent {color: blueviolet;}
+body {font-family: 'Garamond', serif;
+      line-height: 1.5;}
+h1, h2, h3, h4, h5, h6 {font-family: "Oswald", sans-serif;}
